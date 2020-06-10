@@ -1,3 +1,8 @@
-# Die Familie Murmel
+---
+layout: default
+title:  "Die "
+---
 
-(/assets/images/murmels.svg)
+# Die Murmels
+
+![Die Murmels](/assets/images/murmels.svg)

@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Die "
+title:  "Die Murmels"
 ---
 
 # Die Murmels
 
-![Die Murmels](/assets/images/murmels.svg)
+![Die Murmels](/assets/images/murmels.svg "Murmels")

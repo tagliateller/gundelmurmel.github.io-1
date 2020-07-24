@@ -1,0 +1,46 @@
+digraph murmels_ancestors {
+
+  p_sepp [ shape = box, style="filled",fillcolor="green", label="Sepp" ];
+  p_gundel [ shape = box, style="filled",fillcolor="yellow", label="Grundel" ];
+
+  p_hans [ shape = box, style="filled",fillcolor="lightblue", label="Hans" ];
+  p_franz [ shape = box, style="filled",fillcolor="lightblue", label="Franz" ];
+  p_xaver [ shape = box, style="filled",fillcolor="lightblue", label="Xaver" ];
+  p_joseph [ shape = box, style="filled",fillcolor="lightblue", label="Joseph" ];
+  p_rocco [ shape = box, style="filled",fillcolor="lightblue", label="Rocco" ];
+  p_giovanni [ shape = box, style="filled",fillcolor="lightblue", label="Giovanni" ];
+  p_martina [ shape = box, style="filled",fillcolor="pink", label="Martina" ];
+  p_bernadette [ shape = box, style="filled",fillcolor="pink", label="Bernadette" ];
+  p_jakob [ shape = box, style="filled",fillcolor="lightblue", label="Jakob" ];
+  p_gabi [ shape = box, style="filled",fillcolor="pink", label="Gabi" ];
+
+  p_jacques [ shape = box, style="filled",fillcolor="lightblue", label="Jacques" ];
+
+  p_sepp_and_p_gundel [ shape = point ];
+  p_sepp -> p_sepp_and_p_gundel;
+  p_gundel -> p_sepp_and_p_gundel;
+  p_sepp_and_p_gundel -> p_hans;
+  p_sepp_and_p_gundel -> p_franz;
+  p_sepp_and_p_gundel -> p_xaver;
+  p_sepp_and_p_gundel -> p_joseph;
+  p_sepp_and_p_gundel -> p_rocco;
+  p_sepp_and_p_gundel -> p_giovanni;
+  p_sepp_and_p_gundel -> p_martina;
+  p_sepp_and_p_gundel -> p_bernadette;
+  p_sepp_and_p_gundel -> p_jakob;
+  p_sepp_and_p_gundel -> p_gabi;
+
+  p_jacques_and_p_gabi [ shape = point ];
+  p_jacques -> p_jacques_and_p_gabi;
+  p_gabi -> p_jacques_and_p_gabi;
+
+  p_friedrich [ shape = box, style="filled",fillcolor="lightblue", label="Friedrich" ];
+  p_pierre [ shape = box, style="filled",fillcolor="lightblue", label="Pierre" ];
+  p_franziska [ shape = box, style="filled",fillcolor="pink", label="Franziska" ];
+  p_valerie [ shape = box, style="filled",fillcolor="pink", label="Valerie" ];
+
+  p_jacques_and_p_gabi -> p_friedrich;
+  p_jacques_and_p_gabi -> p_pierre;
+  p_jacques_and_p_gabi -> p_franziska;
+  p_jacques_and_p_gabi -> p_valerie;
+}
